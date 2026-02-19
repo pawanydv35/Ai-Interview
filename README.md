@@ -112,7 +112,8 @@ Frontend runs on:
 
 http://localhost:3000
 
-
+```
+---
 
 ##📈 Future Scope
 🎙 Voice-based interview mode
@@ -121,6 +122,8 @@ http://localhost:3000
 🔐 User authentication
 🏆 Leaderboard system
 💳 SaaS subscription model
+
+---
 
 ##🏆 Why This Project Stands Out
 Solves a real-world problem
