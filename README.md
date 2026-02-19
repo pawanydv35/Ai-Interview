@@ -112,21 +112,21 @@ Frontend runs on:
 
 http://localhost:3000
 
+```
+
+### 📈 Future Scope
+- 🎙 Voice-based interview mode
+- 👁 Webcam confidence detection
+- 📊 Skill analytics charts
+- 🔐 User authentication
+- 🏆 Leaderboard system
+- 💳 SaaS subscription model
+
 ---
 
-###📈 Future Scope
--🎙 Voice-based interview mode
--👁 Webcam confidence detection
--📊 Skill analytics charts
--🔐 User authentication
--🏆 Leaderboard system
--💳 SaaS subscription model
-
----
-
-###🏆 Why This Project Stands Out
--Solves a real-world problem
--Uses AI meaningfully
--Structured interview simulation
--Clean and scalable architecture
--Strong SaaS potential
+### 🏆 Why This Project Stands Out
+- Solves a real-world problem
+- Uses AI meaningfully
+- Structured interview simulation
+- Clean and scalable architecture
+- Strong SaaS potential
