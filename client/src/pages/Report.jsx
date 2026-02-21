@@ -1,11 +1,26 @@
+import { useEffect, useState } from "react";
+
 function Report() {
+  const [report, setReport] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/performance-report")
+      .then(res => res.json())
+      .then(data => setReport(data));
+  }, []);
+
+  if (!report) return <p style={{ padding: "40px" }}>Loading...</p>;
+
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Performance Report</h1>
-      <p>Total Questions: 10</p>
-      <p>Correct Answers: 7</p>
-      <p>Score: 70%</p>
-      <button>Retake Quiz</button>
+    <div className="container">
+      <h1>Performance Report 📊</h1>
+
+      <div className="card">
+        <p>Total Questions: {report.totalQuestions}</p>
+        <p>Correct Answers: {report.correctAnswers}</p>
+        <p>Score: {report.percentage}%</p>
+        <p>Performance: {report.performance}</p>
+      </div>
     </div>
   );
 }
